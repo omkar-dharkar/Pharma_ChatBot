@@ -123,17 +123,72 @@ The goal of this project was to build a chatbot that can:
 
 ---
 
-## Repository Structure
+````markdown
+# Medical ChatBot Using LLM 🧠, LangChain 🦜, Pinecone ⚛
 
-```text
-Pharma_ChatBot/
-│
-├── app.py
-├── requirements.txt
-├── .env
-├── src/
-│   ├── helper.py
-│   └── prompt.py
-├── research/
-├── data/
-└── README.md
+### Tech Stack
+
+- Python
+- LangChain
+- Flask
+- GPT
+- Pinecone
+- RAG
+
+### Flowchart
+
+<p align="center">
+  <img src="https://github.com/omkar-dharkar/Pharma_ChatBot/blob/main/FlowChart.png" height="900" width="1000"/>
+</p>
+
+## Setup and Run
+
+### 1. Clone the repository
+
+```bash
+gh repo clone omkar-dharkar/Pharma_ChatBot
+cd Pharma_ChatBot
+````
+
+### 2. Create and activate the conda environment
+
+```bash
+conda create -n medicalbot python=3.10 -y
+conda activate medicalbot
+```
+
+### 3. Install the requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Create a `.env` file in the root directory
+
+Add your Pinecone and OpenAI credentials like this:
+
+```ini
+PINECONE_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+### 5. Store embeddings in Pinecone
+
+```bash
+python store_index.py
+```
+
+### 6. Run the application
+
+```bash
+python app.py
+```
+
+### 7. Open in browser
+
+```bash
+http://localhost:8080
+```
+
+```
+```
