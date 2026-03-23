@@ -123,7 +123,7 @@ The goal of this project was to build a chatbot that can:
 
 ---
 
-````markdown
+
 # Medical ChatBot Using LLM 🧠, LangChain 🦜, Pinecone ⚛
 
 ### Tech Stack
