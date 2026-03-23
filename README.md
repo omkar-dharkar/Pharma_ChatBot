@@ -189,6 +189,3 @@ python app.py
 ```bash
 http://localhost:8080
 ```
-
-```
-```
