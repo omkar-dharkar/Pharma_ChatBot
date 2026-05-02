@@ -138,7 +138,7 @@ The goal of this project was to build a chatbot that can:
 ### Flowchart
 
 <p align="center">
-  <img src="https://github.com/omkar-dharkar/Pharma_ChatBot/blob/main/FlowChart.png" height="900" width="1000"/>
+  <img src="https://github.com/omkar-dharkar/Pharma_ChatBot/blob/main/ai_medical_chatbot_flowchart.png" height="900" width="1000"/>
 </p>
 
 ## Setup and Run
